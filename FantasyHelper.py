@@ -265,7 +265,7 @@ output_file = f'{day}_{month.lower()}.txt'
 teams = ['FaZe', 'FURIA', 'ENCE']  # teams you want players from
 p_whitelist = []  # players that must be in lineup
 p_blacklist = []  # players that can't be in lineup
-min_value = 999  # discard lineups under this value
+min_value = 999  # discard lineups equal or under this value
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-s', '--scrape', action='store_true', help='scrape top30 teams/players from hltv, takes around 2 minutes')
@@ -283,6 +283,3 @@ elif args.scrape:
     print('Scraping...')
     scrape()
     print(f'Scraping Complete!\nOutput file: {output_file}')
-do_lineups()
-sort('rating')
-print_lineups()
