@@ -231,7 +231,7 @@ year = today.year
 day = day.strftime('%d')
 output_file = f'{day}_{month.lower()}.txt'
 
-teams = ['FaZe', 'Cloud9', 'ENCE']  # teams you want players from
+teams = []  # teams you want players from
 p_whitelist = []  # players that must be in lineup
 p_blacklist = []  # players that can't be in lineup
 min_value = 999  # discard lineups equal or under this value
