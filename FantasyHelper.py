@@ -220,49 +220,18 @@ def do_lineups():
 
 lineups = []
 all_players =[
-Player('karrigan', 181, 'FaZe', 0.98), Player('rain', 209, 'FaZe', 1.14), Player('Twistzz', 213, 'FaZe', 1.11), Player('ropz', 221, 'FaZe', 1.17), Player('broky', 223, 'FaZe', 1.17), 
-Player('s1mple', 0, 'Natus Vincere', 1.34), Player('electroNic', 0, 'Natus Vincere', 1.10), Player('Boombl4', 0, 'Natus Vincere', 0.98), Player('Perfecto', 0, 'Natus Vincere', 1.06), Player('b1t', 0, 'Natus Vincere', 1.17), 
-Player('Snappi', 187, 'ENCE', 1.00), Player('Maden', 194, 'ENCE', 1.03), Player('dycha', 211, 'ENCE', 1.12), Player('hades', 207, 'ENCE', 1.09), Player('Snax', 209, 'ENCE', 0.89), 
-Player('cadiaN', 198, 'Heroic', 1.09), Player('refrezh', 188, 'Heroic', 1.01), Player('stavn', 227, 'Heroic', 1.20), Player('TeSeS', 201, 'Heroic', 1.11), Player('sjuush', 197, 'Heroic', 1.06), 
-Player('es3tag', 182, 'NIP', 0.98), Player('REZ', 211, 'NIP', 1.20), Player('hampus', 194, 'NIP', 1.02), Player('Brollan', 208, 'NIP', 1.14), Player('Plopski', 190, 'NIP', 1.03), 
-Player('chopper', 0, 'Spirit', 0.99), Player('degster', 0, 'Spirit', 1.28), Player('magixx', 0, 'Spirit', 1.13), Player('s1ren', 0, 'Spirit', 1.08), Player('Patsi', 0, 'Spirit', 1.11), 
-Player('JACKZ', 183, 'G2', 0.93), Player('NiKo', 235, 'G2', 1.13), Player('huNter-', 214, 'G2', 1.16), Player('Aleksib', 174, 'G2', 0.89), Player('m0NESY', 216, 'G2', 1.14), 
-Player('arT', 195, 'FURIA', 1.06), Player('yuurih', 215, 'FURIA', 1.22), Player('KSCERATO', 217, 'FURIA', 1.16), Player('saffee', 215, 'FURIA', 1.04), Player('drop', 186, 'FURIA', 1.03), 
-Player('HObbit', 214, 'Cloud9', 1.14), Player('interz', 186, 'Cloud9', 0.96), Player('Ax1Le', 223, 'Cloud9', 1.20), Player('sh1ro', 234, 'Cloud9', 1.25), Player('nafany', 183, 'Cloud9', 0.91), 
-Player('apEX', 188, 'Vitality', 0.95), Player('dupreeh', 200, 'Vitality', 1.02), Player('Magisk', 200, 'Vitality', 1.08), Player('ZywOo', 236, 'Vitality', 1.20), Player('misutaaa', 181, 'Vitality', 0.92), 
-Player('HooXi', 0, 'Copenhagen Flames', 0.88), Player('nicoodoz', 0, 'Copenhagen Flames', 1.12), Player('roeJ', 0, 'Copenhagen Flames', 1.21), Player('jabbi', 0, 'Copenhagen Flames', 1.11), Player('Zyphon', 0, 'Copenhagen Flames', 1.05), 
-Player('Xyp9x', 174, 'Astralis', 0.93), Player('gla1ve', 178, 'Astralis', 0.96), Player('k0nfig', 204, 'Astralis', 1.13), Player('Farlig', 192, 'Astralis', 1.02), Player('blameF', 224, 'Astralis', 1.25), 
-Player('shox', 181, 'Liquid', 0.98), Player('nitr0', 180, 'Liquid', 1.00), Player('NAF', 217, 'Liquid', 1.21), Player('EliGE', 211, 'Liquid', 1.20), Player('oSee', 216, 'Liquid', 1.15), 
-Player('FL1T', 0, 'Outsiders', 1.05), Player('Qikert', 0, 'Outsiders', 1.02), Player('Jame', 0, 'Outsiders', 1.09), 
-Player('fnx', 174, 'Imperial', 0.94), Player('FalleN', 196, 'Imperial', 1.11), Player('fer', 228, 'Imperial', 1.23), Player('boltz', 211, 'Imperial', 1.13), Player('VINI', 204, 'Imperial', 1.10), 
-Player('tabseN', 205, 'BIG', 1.12), Player('tiziaN', 177, 'BIG', 0.98), Player('syrsoN', 215, 'BIG', 1.17), Player('faveN', 213, 'BIG', 1.10), Player('Krimbo', 205, 'BIG', 1.05), 
-Player('NickelBack', 0, 'Entropiq', 1.04), Player('Krad', 0, 'Entropiq', 1.09), Player('Lack1', 0, 'Entropiq', 0.92), Player('El1an', 0, 'Entropiq', 1.11), Player('Forester', 0, 'Entropiq', 1.13), 
-Player('alex', 195, 'Movistar Riders', 1.08), Player('mopoz', 183, 'Movistar Riders', 0.99), Player('DeathZz', 182, 'Movistar Riders', 0.99), Player('SunPayus', 208, 'Movistar Riders', 1.17), Player('dav1g', 172, 'Movistar Riders', 0.93), 
-Player('rigoN', 0, 'Bad News Eagles', 1.11), Player('SENER1', 0, 'Bad News Eagles', 0.96), Player('juanflatroo', 0, 'Bad News Eagles', 1.08), Player('sinnopsyy', 0, 'Bad News Eagles', 1.04), Player('gxx-', 0, 'Bad News Eagles', 1.05), 
-Player('dexter', 174, 'MOUZ', 0.96), Player('frozen', 211, 'MOUZ', 1.17), Player('JDC', 195, 'MOUZ', 1.05), Player('torzsi', 214, 'MOUZ', 1.13), Player('Bymas', 203, 'MOUZ', 1.13), 
-Player('Jerry', 0, 'forZe', 1.06), Player('zorte', 0, 'forZe', 1.10), Player('shalfey', 0, 'forZe', 1.14), Player('KENSI', 0, 'forZe', 1.13), Player('Norwi', 0, 'forZe', 1.05), 
-Player('chelo', 0, 'MIBR', 1.19), Player('exit', 0, 'MIBR', 1.10), Player('Tuurtle', 0, 'MIBR', 1.10), Player('JOTA', 0, 'MIBR', 1.26), Player('brnz4n', 0, 'MIBR', 1.23), 
-Player('bodyy', 0, 'HEET', 1.10), Player('Lucky', 0, 'HEET', 1.03), Player('Djoko', 0, 'HEET', 1.06), Player('Ex3rcice', 0, 'HEET', 1.01), Player('afro', 0, 'HEET', 1.06), 
-Player('JT', 179, 'Complexity', 0.96), Player('floppy', 213, 'Complexity', 1.16), Player('Grim', 185, 'Complexity', 1.10), Player('junior', 207, 'Complexity', 1.03), Player('FaNg', 197, 'Complexity', 0.99), 
-Player('XANTARES', 0, 'Eternal Fire', 1.27), Player('woxic', 0, 'Eternal Fire', 1.12), Player('Calyx', 0, 'Eternal Fire', 1.07), Player('imoRR', 0, 'Eternal Fire', 1.11), Player('xfl0ud', 0, 'Eternal Fire', 1.04), 
-Player('PKL', 0, 'paiN', 1.05), Player('NEKIZ', 0, 'paiN', 1.11), Player('hardzao', 0, 'paiN', 1.11), Player('biguzera', 0, 'paiN', 1.16), Player('nython', 0, 'paiN', 1.17), 
-Player('nexa', 0, 'OG', 0.96), Player('niko', 0, 'OG', 0.87), Player('mantuu', 0, 'OG', 1.26), Player('flameZ', 0, 'OG', 0.95), 
-Player('max', 0, '9z', 1.08), Player('dgt', 0, '9z', 1.22), Player('Luken', 0, '9z', 1.10), Player('rox', 0, '9z', 0.86), Player('dav1d', 0, '9z', 0.99), 
-Player('HEN1', 0, 'GODSENT', 1.10), Player('TACO', 0, 'GODSENT', 0.92), Player('dumau', 0, 'GODSENT', 1.21), Player('b4rtiN', 0, 'GODSENT', 1.05), Player('latto', 0, 'GODSENT', 1.07), 
-Player('bubble', 0, 'SKADE', 0.94), Player('dream3r', 0, 'SKADE', 1.09), Player('SHiPZ', 0, 'SKADE', 1.12), Player('dennyslaw', 0, 'SKADE', 1.10), Player('Rainwaker', 0, 'SKADE', 1.12), 
 ]
 
 # has to be global for -o option to work
 # gets latest monday (update day for hltv rankings)
-date = datetime.today()
-year = date.year
-month = date.strftime('%B')
-today = date.today()
+today = datetime.today()
 day = today - timedelta(days=today.weekday())
+month = day.strftime('%B')
+year = today.year
 day = day.strftime('%d')
 output_file = f'{day}_{month.lower()}.txt'
 
-teams = ['FaZe', 'FURIA', 'ENCE']  # teams you want players from
+teams = ['FaZe', 'Cloud9', 'ENCE']  # teams you want players from
 p_whitelist = []  # players that must be in lineup
 p_blacklist = []  # players that can't be in lineup
 min_value = 999  # discard lineups equal or under this value
